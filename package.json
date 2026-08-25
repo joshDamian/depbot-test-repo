@@ -9,7 +9,7 @@
     "axios": "0.21.0",
     "minimist": "1.2.5",
     "tar": "4.4.13",
-    "node-fetch": "2.6.0",
+    "node-fetch": "2.6.7",
     "glob-parent": "5.1.0",
     "path-parse": "1.0.6",
     "json5": "1.0.1",
