@@ -82,6 +82,7 @@ app.get("/verify", (req, res) => {
 
 // postcss: synchronous .process().css access — throws in postcss v8
 app.post("/style", (req, res) => {
+  // TODO(depbot-triage): postcss 7.0.35 → 8.5.23 — review usage below
   const processed = postcss().process(req.body.css).css;
   res.json({ css: processed });
 });
