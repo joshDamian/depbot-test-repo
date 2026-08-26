@@ -11,7 +11,7 @@
     "tar": "4.4.13",
     "node-fetch": "2.6.0",
     "glob-parent": "5.1.0",
-    "path-parse": "1.0.6",
+    "path-parse": "^1.0.7",
     "json5": "1.0.1",
     "semver": "5.7.1",
     "tough-cookie": "2.5.0",
