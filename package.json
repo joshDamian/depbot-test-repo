@@ -4,7 +4,7 @@
   "description": "Test repo with intentionally outdated dependencies",
   "main": "index.js",
   "dependencies": {
-    "express": "4.17.1",
+    "express": "^4.20.0",
     "lodash": "4.17.19",
     "axios": "0.21.0",
     "minimist": "1.2.5",
