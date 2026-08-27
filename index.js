@@ -71,6 +71,7 @@ app.post("/token", (req, res) => {
 
 app.get("/verify", (req, res) => {
   try {
+    // TODO(depbot-triage): jsonwebtoken 8.5.1 → 9.0.0 — review usage below
     const decoded = jwt.verify(req.headers.authorization, "secret-key", {
       algorithms: ["HS256", "none"],
     });
